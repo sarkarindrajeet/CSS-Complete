@@ -1,12 +1,5 @@
+<!-- 2. Internal css -->
 
-<!-- CSS: stands for Cascadint style sheets
-
-Types of css
-1. Inline css
-2. Internal css
-3. External css -->
-
-<!-- 1. Inline css -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,11 +7,23 @@ Types of css
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            background-image: url(jeet.jpg)
+        }
+        h1{
+            color: white;
+        }
+      p{
+          background-color: black;
+          color: white;
+      }
+
+    </style>
 </head>
-<body background="jeet.jpg">
-    <!-- Inline CSS add  -->
-    <h1 style="color: white;">Inlin css</h1>
-    <p style="color: white; font-size: 20px; background-color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem 
+<body>
+    <h1>Internal css</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem 
         ducimus dolores, ea accusamus optio perspiciatis error doloribus nam labore eius 
         velit quae! Distinctio tenetur incidunt placeat officia fugiat nostrum neque animi? 
         Ex sapiente laborum modi
